@@ -1,0 +1,76 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/bigrammi/NodeTemplate.h
+
+/home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/bigrammi/ParQueue.h
+iostream
+-
+cstring
+-
+mutex
+-
+SeqQueue.h
+/home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/bigrammi/SeqQueue.h
+
+/home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/bigrammi/SeqQueue.h
+iostream
+-
+cstring
+-
+mutex
+-
+ctime
+-
+NodeTemplate.h
+/home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/bigrammi/NodeTemplate.h
+
+/home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/bigrammi/main.cpp
+iostream
+-
+fstream
+-
+thread
+-
+iomanip
+-
+locale
+-
+chrono
+-
+unordered_map
+-
+omp.h
+-
+parameters.h
+/home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/bigrammi/parameters.h
+utilities.h
+/home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/bigrammi/utilities.h
+ParQueue.h
+/home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/bigrammi/ParQueue.h
+threads.h
+/home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/bigrammi/threads.h
+
+/home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/bigrammi/parameters.h
+
+/home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/bigrammi/threads.h
+fstream
+-
+atomic
+-
+condition_variable
+-
+chrono
+-
+thread
+-
+cmath
+-
+
+/home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/bigrammi/utilities.h
+

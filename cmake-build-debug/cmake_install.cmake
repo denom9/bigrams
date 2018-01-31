@@ -1,4 +1,4 @@
-# Install script for directory: /home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/bigrammi
+# Install script for directory: /home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/openmp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/bigrammi/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/openmp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

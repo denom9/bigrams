@@ -1,3 +1,3 @@
-/home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/bigrammi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/bigrammi/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/bigrammi/cmake-build-debug/CMakeFiles/bigrammi.dir
+/home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/openmp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/openmp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/samuele/Documenti/Università/Parallel Computing/Progetto mid-term/openmp/cmake-build-debug/CMakeFiles/bigrammi.dir

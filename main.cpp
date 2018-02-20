@@ -12,11 +12,15 @@
 
 int main(int argc, char* argv[]) {
     const char* INPUT_PATH = argv[1];
+    const char* OUTPUT_PATH = argv[2];
+    const int thread_num = *argv[3] - '0';
+    omp_set_num_threads(thread_num);
+    //const int thread_num = omp_get_max_threads();
 
     std::ifstream size,input;
     std::ofstream outputWords, outputLetters;
 
-    int tid, thread_num = omp_get_max_threads();
+    int tid;
     char nextChar;
     char* buffer;
 
@@ -59,13 +63,11 @@ int main(int argc, char* argv[]) {
         }
     }
 
-    //for(int i = 0; i < omp_get_max_threads();i++)
-    //    printf("%i: %li-%li\n%s\n",i,positions[i],positions[i+1],buffers[i]);
 
-
-    #pragma omp parallel default(none) shared(INPUT_PATH,lettersHashtable,wordsHashtable,positions,buffer)private(tid)
+    #pragma omp parallel default(none) shared(lettersHashtable,wordsHashtable,positions,buffer)private(tid)
     {
         tid = omp_get_thread_num();
+
 
         std::string tmpString = "";
         std::string words_key = "";
@@ -75,6 +77,8 @@ int main(int argc, char* argv[]) {
 
         long int start_position = positions[tid];
         long int end_position = positions[tid+1];
+
+        //printf("thread %i, positions: %li-%li\n",tid,start_position,end_position);
 
             for (int i = start_position; i < end_position; i++) {
                 nextChar = buffer[i];
@@ -99,6 +103,8 @@ int main(int argc, char* argv[]) {
             }
     };
 
+
+
     /* REDUCE STEP */
     for(int i = 0; i < thread_num; i++){
         for(auto r : lettersHashtable[i])
@@ -112,8 +118,8 @@ int main(int argc, char* argv[]) {
 
     /* PRINT RESULTS */
 
-    outputWords.open("../files/outputs/parallel_output_words.txt", std::ios::binary);
-    outputLetters.open("../files/outputs/parallel_output_letters.txt", std::ios::binary);
+    outputWords.open((std::string)OUTPUT_PATH + "parallel_output_words.txt", std::ios::binary);
+    outputLetters.open((std::string)OUTPUT_PATH + "parallel_output_letters.txt", std::ios::binary);
 
     for ( auto mapIterator =lettersReduce.begin(); mapIterator != lettersReduce.end(); ++mapIterator )
         outputLetters << mapIterator->first << " : " << mapIterator->second<<std::endl;
@@ -126,7 +132,7 @@ int main(int argc, char* argv[]) {
     outputWords.close();
     outputLetters.close();
 
-    std::cout << elapsedTime << std::endl;
+    std::cout << elapsedTime;
 
 
     return 0;

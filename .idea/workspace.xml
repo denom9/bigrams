@@ -13,55 +13,17 @@
   <component name="ChangeListManager">
     <list default="true" id="6833edb9-b3a3-4a0e-a268-32659d566a60" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/NodeTemplate.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ParQueue.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/SeqQueue.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CMakeCCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CMakeCXXCompiler.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_C.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CMakeSystem.cmake" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CompilerIdC/a.out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.4/CompilerIdCXX/a.out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeSystem.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeSystem.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bigrammi.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bigrammi.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bigrammi.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bigrammi.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bigrammi.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bigrammi.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bigrammi.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bigrammi.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bigrammi.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bigrammi.dir/depend.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bigrammi.dir/main.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bigrammi.dir/main.cpp.o" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/bigrammi" afterPath="$PROJECT_DIR$/cmake-build-debug/bigrammi" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bigrammi.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/bigrammi.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
-      <change beforePath="$PROJECT_DIR$/files/compare_parts.sh" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/files/compare_results.sh" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/files/comparing/parallel_output_letters_sorted.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/files/comparing/parallel_output_words_sorted.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/files/comparing/sequential_output_letters_sorted.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/files/comparing/sequential_output_words_sorted.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/files/input.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/files/input1.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/files/input2.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/files/input3.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/files/parallel_output_letters.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/files/parallel_output_words.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/files/sequential_output_letters.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/files/sequential_output_words.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/files/generate_times.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/files/inputs/input.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/files/inputs/input1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/files/inputs/input2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/files/inputs/input3.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/files/outputs/parallel_output_letters.txt" afterPath="$PROJECT_DIR$/files/outputs/parallel_output_letters.txt" />
+      <change beforePath="$PROJECT_DIR$/files/outputs/parallel_output_words.txt" afterPath="$PROJECT_DIR$/files/outputs/parallel_output_words.txt" />
+      <change beforePath="$PROJECT_DIR$/files/results.txt" afterPath="$PROJECT_DIR$/files/results.txt" />
       <change beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
-      <change beforePath="$PROJECT_DIR$/parameters.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/threads.h" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/utilities.h" afterPath="$PROJECT_DIR$/utilities.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,8 +39,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="496">
+              <caret line="120" column="75" lean-forward="false" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="75" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -188,7 +150,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sequential" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="ObjectiveC" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="full.screen.before.presentation.mode" value="false" />
@@ -209,7 +171,7 @@
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="bigrammi" RUN_TARGET_NAME="bigrammi" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
-    <configuration name="bigrammi" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="&quot;../files/inputs/input3.txt&quot;" PASS_PARENT_ENVS_2="true" PROJECT_NAME="bigrammi" TARGET_NAME="bigrammi" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="bigrammi" RUN_TARGET_NAME="bigrammi">
+    <configuration name="bigrammi" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="&quot;../../inputs/input7.txt&quot; &quot;$PROJECT_DIR$/../outputs/&quot; 4" PASS_PARENT_ENVS_2="true" PROJECT_NAME="bigrammi" TARGET_NAME="bigrammi" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="bigrammi" RUN_TARGET_NAME="bigrammi">
       <envs />
     </configuration>
     <list size="2">
@@ -302,7 +264,15 @@
       <workItem from="1517404677231" duration="1399000" />
       <workItem from="1517410188168" duration="2063000" />
       <workItem from="1517412297186" duration="4624000" />
-      <workItem from="1517419106807" duration="11000" />
+      <workItem from="1517419106807" duration="608000" />
+      <workItem from="1517501297013" duration="780000" />
+      <workItem from="1517519968204" duration="2803000" />
+      <workItem from="1517592953584" duration="3921000" />
+      <workItem from="1517671403546" duration="266000" />
+      <workItem from="1518958321187" duration="1503000" />
+      <workItem from="1518990544167" duration="2358000" />
+      <workItem from="1519052918725" duration="6174000" />
+      <workItem from="1519124362888" duration="704000" />
     </task>
     <task id="LOCAL-00001" summary="First commit from Clion">
       <created>1513963523512</created>
@@ -322,7 +292,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="319755000" />
+    <option name="totallyTimeSpent" value="338861000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -334,20 +304,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="882" y="74" width="1920" height="1084" extended-state="6" />
+    <frame x="882" y="74" width="1922" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11686233" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12113127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33751306" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4791889" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="688" y="78" width="611" height="949" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3089648" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="993" y="55" width="927" height="1025" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3089648" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="993" y="55" width="927" height="1025" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39754537" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39754537" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -395,7 +365,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>44</line>
+          <line>48</line>
           <option name="timeStamp" value="122" />
         </line-breakpoint>
       </breakpoints>
@@ -578,14 +548,6 @@
     <entry file="file://$PROJECT_DIR$/ParQueue.h" />
     <entry file="file://$PROJECT_DIR$/parameters.h" />
     <entry file="file://$PROJECT_DIR$/threads.h" />
-    <entry file="file://$PROJECT_DIR$/utilities.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -594,10 +556,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utilities.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="496">
+          <caret line="120" column="75" lean-forward="false" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="75" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
